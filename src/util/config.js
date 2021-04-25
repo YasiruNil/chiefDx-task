@@ -1,0 +1,1 @@
+export const photoBaseUrl = process.env.REACT_APP_PHOTO_BASE_URL
