@@ -114,16 +114,6 @@ const UserList = (props) => {
             selectedUser={selectedUser}
           />
         </div>
-        {users.map((p, i) => (
-          <div key={i}>
-            <HeartColorChange
-              key={i}
-              user={p}
-              // handleHeartColorChange={handleHeartColorChange}
-              // handleHeartColorUnChange={handleHeartColorUnChange}
-            />
-          </div>
-        ))}
       </>
     )
   }
